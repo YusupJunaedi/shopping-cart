@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "id_store": 129,
+            "name_store": "Kobeo Store",
+            "product": [
+                {
+                    "id": "1923",
+                    "name": "Tas Pria Ransel Distro Original",
+                    "price": 100000,
+                    "image_url": "https://s2.bukalapak.com/img/2584349902/small/Tas_Pria_Ransel__Distro_Original_Bandung________________tas_.jpg",
+                    "stock": 4,
+                    "qty": 1
+                },
+                {
+                    "id": "1987",
+                    "name": "Sepatu Running Adidas Original",
+                    "price": 175000,
+                    "image_url": "https://s1.bukalapak.com/img/6024418382/small/SEPATU.jpg",
+                    "stock": 8,
+                    "qty": 1
+                }
+            ],
+            "total": 100000
+        },
+        {
+            "id_store": 177,
+            "name_store": "Butik Soccer ID",
+            "product": [
+                {
+                    "id": "2024",
+                    "name": "Baju Koko Shaquille Biru Kemeja Soccer Baju Sholat Muslim Gamis Kemko",
+                    "price": 140000,
+                    "image_url": "https://s2.bukalapak.com/img/2681803562/small/Baju_Koko_Shaquille_Hiaju_Kemeja_Soccer_Baju_Sholat_Muslim_G.jpg",
+                    "stock": 20,
+                    "qty": 1
+                }
+            ],
+            "total": 100000
+        }
+    ]
+}
