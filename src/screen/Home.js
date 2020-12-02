@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { View, Text, FlatList, SafeAreaView, Image, TouchableOpacity } from 'react-native';
 import dataJson from '../data/data.json'
-import {Card, CardItem} from 'native-base';
+import {Card, CardItem, Badge} from 'native-base';
 import numeral from 'numeral'
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllProductCreator } from "../redux/actions/product";
@@ -76,7 +76,12 @@ function Home({navigation}) {
                   />
                 </CardItem>
                 <CardItem style={{justifyContent: 'center'}}>
-                  <Text style={{fontWeight: 'bold'}}>{getLimitString(item.name)}</Text>
+                  <Text style={{fontSize:12}}>{getLimitString(item.name)}</Text>
+                </CardItem>
+                <CardItem style={{justifyContent: 'center', marginTop: -15}}>
+                    <Badge warning>
+                      <Text style={{ color: 'white' }}>Stock 5</Text>
+                    </Badge>
                 </CardItem>
                 <CardItem style={{justifyContent: 'center', marginTop: -15}}>
                   <Text style={{fontWeight: 'bold'}}>Rp. {numeral(item.price).format('0,0')}</Text>

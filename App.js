@@ -15,17 +15,16 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Cart from './src/screen/Cart';
 import { Provider } from "react-redux";
 import storeRedux from './src/redux';
+import Splashscreen from './src/screen/Splashscreen';
 
 const Stack = createStackNavigator();
 
 const App = () => {
   return (
-    // <>
-    // <Cart />
-    // </>
     <NavigationContainer>
       <Provider store={storeRedux}>
         <Stack.Navigator headerMode="none">
+          <Stack.Screen name="SplashScreen" component={Splashscreen} />
           <Stack.Screen name="HomeApp" component={BottomNavigator} />
         </Stack.Navigator>
       </Provider>
