@@ -5,7 +5,7 @@ Untuk manajemen state menggunakan redux.
 
 ## Download Apk
 
-Dapatkan apk [disini](https://pip.pypa.io/en/stable/) untuk dapat di install di hp android anda.
+Dapatkan apk [disini](https://drive.google.com/file/d/1fyMvhst8KIOPPEb1grAVM3K9n68NjPpF/view?usp=sharing) untuk dapat di install di hp android anda.
 
 ## Tampilan Aplikasi
 
