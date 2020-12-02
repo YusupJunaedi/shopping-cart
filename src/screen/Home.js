@@ -80,7 +80,7 @@ function Home({navigation}) {
                 </CardItem>
                 <CardItem style={{justifyContent: 'center', marginTop: -15}}>
                     <Badge warning>
-                      <Text style={{ color: 'white' }}>Stock 5</Text>
+                  <Text style={{ color: 'white' }}>Stock {item.stuff.stock} </Text>
                     </Badge>
                 </CardItem>
                 <CardItem style={{justifyContent: 'center', marginTop: -15}}>
